@@ -1,34 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">AleScore</h1>
 
-## Getting Started
+Olá! Seja bem vindo! Isso aqui é o repositório do site do AleScore (https://ale.sazz.fail), se você acabou caindo aqui é porque talvez esteja interessado em ver como isso aqui tudo funciona, certo?
 
-First, run the development server:
+Aonde você está agora é o front-end, que é feito em Next.js e Typescript (e muito ódio, já que eu odeio CSS e front-end), sinta-se livre para explorar e ver ~~código ruim~~ o código.
+Porém a mágica mesmo acontece no back-end, aonde é processado a lista e se há mudanças ou não, você pode ver o repositório dele aqui: https://github.com/Sazzo/AleScore-API
 
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+É isso, se você quiser adicionar novas funcionalidades e coisas interessantes, só me contatar no Discord sazz#3505
