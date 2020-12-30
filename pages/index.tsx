@@ -56,13 +56,25 @@ export default function Home() {
       updated_at: "",
     },
   });
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    api.get("changes").then((res) => {
+    api.get("api/v1/changes").then((res) => {
       setLastChanges(res.data.lastChanges);
       setBeforeChanges(res.data.beforeChanges);
+      setLoading(false);
     });
   });
+
+  if (loading)
+    return (
+      <div className="main">
+        <div className="container">
+          <img className="cover" src="https://i.imgur.com/6X6BKax.gif"></img>
+          <h1>Carregando os dados...</h1>
+        </div>
+      </div>
+    );
 
   return (
     <div className="main">

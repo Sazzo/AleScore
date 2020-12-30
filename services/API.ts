@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://ritsu.waiifu.tech/alescore/",
+  baseURL: "https://alescore.waiifu.tech",
 });
 
 export default api;
