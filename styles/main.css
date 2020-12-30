@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap");
+html,
+body {
+  font-family: Nunito, sans-serif;
+  color: white;
+  background: url("https://i.imgur.com/dPzP2F7.png") no-repeat;
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cover {
+  border-radius: 5px;
+  width: 200px;
+}
+
+.msg {
+  font-size: 23px;
+}
+
+.arrow {
+  position: relative;
+  bottom: 2px;
+}
+
+.score {
+  margin: 10px;
+}
+
+.before {
+  color: red;
+}
+
+.after {
+  color: #03fc1c;
+}
+
+.icon {
+  margin: 5px;
+}
+
+p {
+  font-weight: 800;
+}
+
+.updated_at {
+  position: relative;
+  bottom: 10px;
+  font-size: 12px;
+  font-weight: 400;
+}
