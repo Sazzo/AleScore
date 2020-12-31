@@ -64,7 +64,7 @@ export default function Home() {
       setBeforeChanges(res.data.beforeChanges);
       setLoading(false);
     });
-  });
+  }, []);
 
   if (loading)
     return (
